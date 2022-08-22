@@ -1,4 +1,39 @@
-body {
+body{
+    background-color: #dcd9f8}
 
-    background-color: aqua;
+#titulo{   color: #ff806f
+}
+   
+
+.salvajada{
+    color: rgb(128, 49, 255);
+}
+.best{
+    
+    font-style: italic;
+}
+.receta{
+    background-color: rgb(227, 255, 181);
+    text-align: center;
+    width: 100%;
+    margin: 100px auto 100px auto;
+    border: 3px dashed red;
+    padding-bottom: 30px;
+
+}
+
+.receta img{
+    width: 250px;
+    border-radius: 100%;
+}
+.btn-receta{
+    background-color: #9380fc;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(255, 171, 141);
+    cursor: pointer;
+}
+.btn-receta:hover{
+    background-color: rgb(194, 240, 255);
+    
 }
